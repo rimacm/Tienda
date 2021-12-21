@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --green: #7ad03a;
+  --orange: #ffba00;
+  --blue: #0000ff;
+  --lime: #19ec11;
+  --greenL: #d5e9dd;
+  --footer: #181E2A;
+  --white: #fff;
+  --fondo: #151518;
+  --cyan: #00f3ffff;
+  --negro2: #333333;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Roboto Slab', serif; */
+
+}
