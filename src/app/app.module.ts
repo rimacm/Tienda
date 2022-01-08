@@ -4,11 +4,23 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
+import { TiendaComponent } from './pages/tienda/tienda.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
+import { NosotrosComponent } from './pages/nosotros/nosotros.component';
+import { MiCuentaComponent } from './pages/mi-cuenta/mi-cuenta.component';
+import { PaginasComponent } from './pages/paginas/paginas.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    TiendaComponent,
+    InicioComponent,
+    NosotrosComponent,
+    MiCuentaComponent,
+    PaginasComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
