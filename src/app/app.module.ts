@@ -9,7 +9,8 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { MiCuentaComponent } from './pages/mi-cuenta/mi-cuenta.component';
 import { PaginasComponent } from './pages/paginas/paginas.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { PiePaginaComponent } from './components/pie-pagina/pie-pagina.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     NosotrosComponent,
     MiCuentaComponent,
     PaginasComponent,
-    FooterComponent
+    PiePaginaComponent
+    
   ],
   imports: [
     BrowserModule,
