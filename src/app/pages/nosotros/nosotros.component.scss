@@ -1,0 +1,22 @@
+.container-nosotros {
+  max-width: 1000px;
+  height: auto;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.quienes-somos {
+  padding: 20px;
+  max-width: 100%;
+
+}
+
+.politicas {
+  background-color: var(--greenL);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+
+}

@@ -10,6 +10,7 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { MiCuentaComponent } from './pages/mi-cuenta/mi-cuenta.component';
 import { PaginasComponent } from './pages/paginas/paginas.component';
 import { PiePaginaComponent } from './components/pie-pagina/pie-pagina.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { PiePaginaComponent } from './components/pie-pagina/pie-pagina.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
